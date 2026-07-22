@@ -72,6 +72,35 @@ You know the destination for each item. Navigate your own route to it:
 Dial depth up or down by the quality of the answers. Ask more questions or fewer; omit
 follow-ups that the previous answer already resolved.
 
+## Delivering questions — offer clickable options
+
+Speed matters in the room. Don't force the consultant to type out every answer. **Present each
+question with a short list of clickable candidate answers** using the host's structured-question
+prompt (in Claude Code, the `AskUserQuestion` tool — it renders selectable options with a
+built-in "Other" for free text).
+
+- **Draw the options from the real→paper spectrum** you already know for that item (from each
+  system's "what real looks like" vs. "what paper sounds like"). Offer 2–4 options spanning
+  strong/real → partial → weak/paper. The click does double duty: it captures the answer **and**
+  positions it on the readiness spectrum.
+- **Always leave the escape hatch.** The built-in "Other" catches anything unanticipated — and
+  an "Other" answer is itself signal (you didn't predict it; find out why).
+- **Use multi-select** when several answers can be true at once.
+- **Phrase options as things the client would actually say** — concise, realistic, plain.
+- **Don't let options replace the drill.** After a selection — especially a real-sounding one —
+  still earn the kill shots: show me last turnaround, walk me through the scenario. Options speed
+  the *categorical* part; Proven / action loop / the tell are still earned open-endedly.
+- **Fall back to open text** when the answer space is genuinely open — numbers (man-hours,
+  durations), names, and the scenario walkthroughs and prior-TA proofs, which can't be
+  multiple-choice.
+- **Batch related questions** when it helps (the prompt can carry a few at once) — a tight
+  cluster of 2–3 related status questions is fine; a wall of them bewilders.
+
+Example (System 1, capacity): *"How does operations know how many man-hours it can safely permit
+and oversee per shift?"* → options: "Quantified & documented per operator/area" · "Rule of thumb,
+not written down" · "Not quantified — we issue what we can as requests come" · (Other). One click
+lands it on the spectrum.
+
 ## Posture: diagnose by default, facilitate lightly, never build
 
 - **Default = diagnostic.** Surface gaps and findings. Fixing is a separate engagement.

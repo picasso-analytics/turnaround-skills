@@ -57,24 +57,37 @@ and dates.>
 
 ---
 
+## Assessment Notes
+
+_Per assessed system/domain — the interrogation trail behind each RAG. No black-box colors._
+
+### System <N> — <name> — 🟥/🟨/🟩
+- **What we heard:** <what the client actually said or showed / couldn't show — in their terms>
+- **Required for readiness:** <what "ready" looks like for this item vs. what they have today>
+- **What we checked:** <the relevant reads — does it exist, who owns it, how it works, how often,
+  proven before, and does anyone act on it — e.g. "cadence meets the standard; owner stretched;
+  no proof from last turnaround">
+- **Impact on other systems:** <systems this one feeds or depends on>
+- **Why this rating:** <one line: why this color>
+
+<repeat for each assessed item, including greens — keep greens brief but evidenced>
+
+---
+
 ## Prioritized Findings Register
 
-_Most severe first._
+_Most severe first. Each finding stands on its own — a plant manager should be able to act on it
+without having been in the room._
 
 ### Finding 1 — <short title>
 - **Item:** <System N / Domain N>
 - **RAG:** 🟥 / 🟨
-- **Gap:** <what's missing or paper-only>
-- **Why it matters in execution:** <concrete consequence>
-- **Severity:** <RAG × time-to-close>
+- **What we heard:** <the evidence — client's actual words / the artifact they couldn't produce>
+- **The gap:** <what's missing, stated against what "ready" requires>
+- **Why it matters in execution:** <concrete consequence, specific to THIS turnaround's size/
+  duration/critical path>
+- **Impact on other systems:** <which other systems this degrades or depends on>
+- **Severity:** <how serious, and whether the runway is long enough to close it>
 - **Closure condition:** <what must be true to close it> — **Owner:** <___> · **By:** <___>
-
-### Finding 2 — <short title>
-- **Item:**
-- **RAG:**
-- **Gap:**
-- **Why it matters in execution:**
-- **Severity:**
-- **Closure condition:** — **Owner:** · **By:**
 
 <repeat as needed>

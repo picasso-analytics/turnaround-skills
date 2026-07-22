@@ -50,13 +50,26 @@ color or a vibe.
 
 ## Writing a finding
 
-Each finding in the register carries:
+Each finding must carry enough **intel to stand on its own in front of a plant manager** — not
+just a verdict. Include:
 
 - **Item** — which system (1–9) or domain (1–12).
 - **RAG** — red / amber.
-- **The gap** — what's missing or paper-only, stated plainly.
-- **Why it matters in execution** — the concrete consequence (schedule slip, safety exposure,
-  phantom progress, nightshift drag, etc.).
-- **Severity** — informed by RAG × time-to-close.
+- **What we heard** — the **evidence**: what the client actually said or showed (or couldn't
+  show), in their own terms. Quote the tell answers ("we give them what we can"), name the
+  artifact they couldn't produce. This is what makes the finding credible rather than an
+  opinion.
+- **The gap** — what's missing, stated against **what "ready" requires** for that item (pull the
+  target from the system's "what real looks like"). Show the client the distance between where
+  they are and what readiness demands.
+- **Why it matters in execution** — the concrete consequence, **made specific to this
+  turnaround** (its man-hours, duration, critical path) — not a generic warning.
+- **Impact on other systems** — which other systems this degrades or depends on (the cross-system
+  wiring). Name the keystone effects.
+- **Severity** — how serious it is, and whether the runway left is long enough to close it
+  (a red far out is more recoverable than the same red near execution).
 - **Closure condition** — what must be true to close it, with **owner and date placeholders**.
   Flag *what* must close; do **not** architect the fix (diagnostic posture).
+
+Depth is the point: a plant manager should be able to act on a finding without having been in
+the room.

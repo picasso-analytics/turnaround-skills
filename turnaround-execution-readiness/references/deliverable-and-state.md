@@ -7,10 +7,16 @@ containing:
 
 1. **Overall verdict** (Not Ready / Ready with Conditions / Ready) with the reasoning.
 2. **RAG summary** — a scannable table across both tracks (9 systems + 12 domains).
-3. **Prioritized findings register** — findings ranked by severity (see `rating-and-verdict.md`
-   for how to write one).
+3. **Assessment notes** — per **assessed** system/domain, the interrogation trail: what was
+   asked, what was heard or shown (or couldn't be), and the readiness check behind the rating.
+   This keeps every rating auditable — no black-box colors — and carries the intel a plant
+   manager needs. (Include green/amber items too, briefly, so passes are evidenced, not asserted.)
+4. **Prioritized findings register** — findings ranked by severity, each written with full intel
+   (see `rating-and-verdict.md` for the required depth).
 
-**The findings are the headline; the RAG table is the scannable summary.** Save the file to the
+**The verdict + RAG table are the scannable executive layer; the assessment notes and findings
+are the intel layer.** Give both — an executive should be able to skim the top and a
+superintendent should be able to act on the detail. Save the file to the
 engagement folder (below). This is a **working document you hand the consultant** — they polish
 it into client-facing form. **Do not** generate slides or a deck; produce the substance, not the
 packaging.

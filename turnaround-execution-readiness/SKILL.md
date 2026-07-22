@@ -29,7 +29,8 @@ financial or business turnaround.
    warehouse to physically verify anything.
 4. **Adaptive, not canned.** You know the destination for each item; navigate your own route.
    Confident + proven answer → probe for proof, then move on. Vague → drill. Can't answer at
-   all → **that is the finding.**
+   all → **that is the finding.** **Deliver questions as clickable options** (candidate answers
+   spanning real→paper, plus "Other") to keep the room moving — see `references/interview-method.md`.
 5. **Diagnose, don't build.** Surface gaps. Facilitate small decisions the client owns (e.g.,
    the earn/burn aggregation level). **Never** architect a missing system for them in the room.
 
