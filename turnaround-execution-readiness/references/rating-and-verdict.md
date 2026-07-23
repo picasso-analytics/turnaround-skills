@@ -14,6 +14,15 @@ survives the interrogation — proven, owned, wired in, and able to pass its tel
 - **Red — Not Ready:** absent, or **paper-only** (can't pass the tell), or fatally gapped. Will
   hurt execution.
 
+**Data home factors into realness.** Where a system's data lives affects its rating: a real
+mechanism whose data sits only on one person's laptop, in email, or on a whiteboard is more
+fragile than the same mechanism in a shared source of truth — weigh that toward amber. And judge
+the **whole**: if turnaround data is badly **fragmented** across disconnected files with no shared
+picture, that degrades every system that depends on it (especially the daily rhythm, earn/burn,
+schedule statusing, and handover) — reflect it in those systems' colors and, when severe, raise it
+as a **standalone finding** and let it weigh on the verdict. The bar is a shared/integrated home,
+not any particular product; the risk is disconnection.
+
 **Time-Phased Readiness (Track 2):** same colors, but **calibrated to T-minus** — on-track for
 the runway (green) / at-risk-for-the-runway (amber) / showstopper or can't-close-in-time (red).
 See `time-phased-readiness.md`.

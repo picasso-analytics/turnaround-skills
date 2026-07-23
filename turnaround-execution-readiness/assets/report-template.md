@@ -57,12 +57,36 @@ and dates.>
 
 ---
 
+## Data Environment — where turnaround data lives
+
+_Synthesis across the nine control systems: is TA data in a shared, integrated home, or scattered?_
+
+| System | Data home | Shared / integrated? |
+|--------|-----------|----------------------|
+| 1 Permit-to-schedule | <e.g. permits in email; schedule in P6> | 🟥/🟨/🟩 |
+| 2 Materials integrity | <e.g. spreadsheet on coordinator's laptop> | |
+| 3 Field-verified progress | | |
+| 4 Earn/burn | | |
+| 5 Discovery/emergent | | |
+| 6 Schedule statusing | | |
+| 7 Daily rhythm | | |
+| 8 Shift handover | | |
+| 9 Outside shops | | |
+
+**Overall:** <one place the team shares, or fragmented across disconnected files? Name the
+consequence for the daily rhythm, cross-system wiring, and handover. If badly fragmented, this is
+also a finding below.>
+
+---
+
 ## Assessment Notes
 
 _Per assessed system/domain — the interrogation trail behind each RAG. No black-box colors._
 
 ### System <N> — <name> — 🟥/🟨/🟩
 - **What we heard:** <what the client actually said or showed / couldn't show — in their terms>
+- **Data home:** <where this system's data physically lives — shared system / single-owner
+  spreadsheet / email / verbal / whiteboard — and who can see it>
 - **Required for readiness:** <what "ready" looks like for this item vs. what they have today>
 - **What we checked:** <the relevant reads — does it exist, who owns it, how it works, how often,
   proven before, and does anyone act on it — e.g. "cadence meets the standard; owner stretched;

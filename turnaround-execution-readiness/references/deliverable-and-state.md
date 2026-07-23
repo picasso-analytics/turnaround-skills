@@ -11,6 +11,8 @@ containing:
    asked, what was heard or shown (or couldn't be), and the readiness check behind the rating.
    This keeps every rating auditable — no black-box colors — and carries the intel a plant
    manager needs. (Include green/amber items too, briefly, so passes are evidenced, not asserted.)
+   **Capture each system's data home** and a **Data Environment synthesis** — is TA data shared/
+   integrated or scattered across disconnected files? (See the template's Data Environment table.)
 4. **Prioritized findings register** — findings ranked by severity, each written with full intel
    (see `rating-and-verdict.md` for the required depth).
 
@@ -52,7 +54,9 @@ Layout (everything lands directly in the working directory):
 
 - **Turnaround profile** (from intake) — unit(s), magnitude, complexity, TA history, key roles.
 - **Per-visit snapshots** — one per visit, each capturing: date & **T-minus**, the RAG status of
-  every system/domain, the findings (open/closed), and the verdict.
+  every system/domain, the **data-environment picture** (each system's data home + whether it's
+  trending toward a shared source of truth or still fragmented), the findings (open/closed), and
+  the verdict.
 
 Keep it human-readable Markdown (tables are fine) so the consultant can read and edit it directly.
 

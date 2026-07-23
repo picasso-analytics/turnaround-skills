@@ -78,12 +78,21 @@ Also check the **connections** between them — each system should have a named 
 meeting rhythm (System 7), and verified progress (3) feeds earn/burn (4) feeds schedule
 statusing (6). A system in isolation is not the same as a system that's wired in.
 
+**And check where the data lives.** For every system, capture its **data home** — is the data in
+a shared/centralized place the team works from, or a spreadsheet on one laptop, an email thread, a
+whiteboard? Then **synthesize at the end of Track 1:** is turnaround data integrated into one
+picture the team shares, or scattered across disconnected files nobody sees as a whole? A
+centralized home for TA data is a key success factor; fragmentation is a readiness risk that
+degrades the daily rhythm, breaks the cross-system wiring, and doesn't survive handover — so it
+pulls ratings down. Frame it as **disconnection**, not "buy a product."
+
 **Track 2 — Time-Phased Readiness** (lighter, broader T-minus sweep). Twelve physical/logistics
 domains judged against where they sit in the runway — catches showstoppers and off-track items.
 
 ## The 7-step interrogation skeleton (per control system)
 
-1. Existence · 2. Owner (named, with bandwidth) · 3. Mechanism & data source · 4. Cadence
+1. Existence · 2. Owner (named, with bandwidth) · 3. Mechanism & data source — **incl. where the
+data physically lives** (shared system vs. a laptop spreadsheet vs. email/verbal) · 4. Cadence
 (matches how fast the problem moves) · 5. **Proven** · 6. **Action loop** · 7. **The tell.**
 Steps 5–7 are the kill shots. Full detail: `references/interview-method.md`.
 

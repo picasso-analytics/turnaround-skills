@@ -41,9 +41,13 @@ For every Execution Control System, drive the conversation to establish:
 2. **Owner** — is there a **named** person accountable for running it during execution, with
    the **bandwidth** to do it? Not "the planning team," not a TBD role, not someone already
    doing five other jobs.
-3. **Mechanism & data source** — where do the numbers actually come from, in what tool, and
-   how does data get in? Manual entry that won't survive a 2 a.m. nightshift, or something
-   sustainable?
+3. **Mechanism & data source — and where the data *lives*** — where do the numbers actually
+   come from, in what tool, and how does data get in? Manual entry that won't survive a 2 a.m.
+   nightshift, or something sustainable? **Always pin down the concrete data home for this
+   system:** is materials tracking a spreadsheet on the coordinator's laptop, or a shared system
+   everyone can see? Are permit requests flowing through email, or a controlled log? Is progress
+   in P6, a contractor's own tracker, or a whiteboard? The *medium and location* of each
+   system's data is first-class signal — see "Where the data lives" below.
 4. **Cadence** — how often it updates, and does that cadence **match how fast the problem
    moves**? Permit throughput and progress move per-shift; a weekly report is useless for them.
 5. **Proven** — has it been used on a prior turnaround, or dry-run/tested for this one — or is
@@ -130,3 +134,43 @@ Systems are wired together. When you finish the individual systems, verify the w
   progress, it's built on phantom progress.
 - Does the **updated schedule** (System 6) feed the **permit look-ahead** (System 1) and the
   daily rhythm (System 7)?
+
+## Where the data lives — capture it per system, then synthesize
+
+A control system is only as real as the place its data actually sits. For **every** system you
+interrogate, log its **data home** as part of step 3 — one concrete answer to *"where does this
+system's data physically live, and who can see it?"* Push past "we track that" to the medium and
+location:
+
+- **A shared/centralized home** — one system of record the team works from (a live shared
+  workbook, P6, a materials database, a permit log, a common dashboard) that the daily rhythm
+  and handover can pull from and everyone reads the same version.
+- **A siloed home** — a spreadsheet on one person's laptop, a personal notebook, a contractor's
+  own tracker nobody else sees.
+- **No real home** — it lives in email threads, texts, a whiteboard, or someone's head.
+
+Ask it plainly, system by system: *"Is materials in a shared system or a spreadsheet on the
+coordinator's laptop? Are permit requests in a controlled log or in email? Where does verified
+progress actually get recorded?"* This is a fast, factual question — usually one clickable set of
+options (shared system · single-owner spreadsheet · email/verbal · other) — not a drill. It rides
+along with each system rather than adding a whole new interrogation.
+
+**Then step back and synthesize (do this when you finish Track 1):** lay the nine data homes side
+by side and judge the **whole**. Do the systems share an integrated picture, or is turnaround data
+**scattered** across a dozen disconnected spreadsheets, inboxes, and trackers with no single place
+anyone can see execution as a whole? Fragmentation is a **readiness risk in its own right**, not
+just an inconvenience:
+
+- It's what makes the **daily rhythm** (System 7) slow and manual — someone spends the night
+  re-keying and reconciling instead of deciding.
+- It **breaks the wiring** — verified progress (3) → earn/burn (4) → schedule statusing (6) can't
+  flow cleanly when each lives in a different disconnected file with no common breakdown.
+- It **doesn't survive handover** (System 8) — the incoming shift can't pick up a picture that's
+  spread across tools it can't reach.
+- It creates **no single source of truth** — two managers reading two files tell two stories, and
+  reconciliation eats execution time.
+
+Don't turn this into a pitch for any particular platform — the failure mode is **disconnection**,
+not "they don't own product X." A tightly integrated set of shared spreadsheets can be a real,
+centralized-enough home; nine private laptops cannot. Weigh the degree of centralization into the
+ratings (see `rating-and-verdict.md`) and surface fragmentation as a finding.

@@ -10,6 +10,16 @@ Each system below gives: **crux** (what separates real from paper), **objective*
 "real" looks like**, **what "paper" sounds like**, a **probe bank** to draw from adaptively,
 the **killer tell**, the **expected gap**, and **dependencies**.
 
+**Cross-cutting for every system — capture its data home.** As part of step 3 (mechanism & data
+source), always pin down **where this system's data physically lives and who can see it**:
+materials in a shared system or a spreadsheet on the coordinator's laptop? permit requests in a
+controlled log or in email? progress in P6, a contractor's own tracker, or a whiteboard? Ask it
+plainly (a quick shared-system · single-owner-spreadsheet · email/verbal · other choice), log the
+answer per system, then **synthesize the nine data homes at the end of the track** — is turnaround
+data integrated into a picture the team shares, or scattered across disconnected files nobody can
+see as a whole? Fragmentation is a readiness risk that pulls ratings down. Full method:
+`interview-method.md` → "Where the data lives."
+
 ---
 
 ## System 1 — Permit-to-schedule alignment
@@ -300,3 +310,34 @@ the **killer tell**, the **expected gap**, and **dependencies**.
   Track 2, domain 3.
 - **Dependencies:** feeds the schedule (System 6) and the daily rhythm (System 7); shares DNA
   with System 1 (an external constraint feeding the schedule you must *see*).
+
+---
+
+## Synthesis — where does all this data live? (do this after the nine systems)
+
+You've logged a **data home** for each of the nine systems along the way. Now judge them as a
+**whole**, because a centralized place for turnaround data is a key predictor of whether execution
+holds together:
+
+- **Lay the nine homes side by side.** How many are in a shared, integrated place versus a
+  private spreadsheet, a contractor's own tool, an email thread, or someone's head?
+- **Ask the whole-picture question:** *"When you're executing, is there one place — one system,
+  one shared environment — where the TA team can see materials, permits, progress, schedule,
+  earn/burn, and discovery together? Or does each live in its own file, and someone stitches them
+  together by hand each shift?"*
+- **What "real" looks like:** the systems feed an integrated, shared source of truth (whether a
+  purpose-built platform or a tightly-connected set of shared workbooks) that the daily rhythm and
+  handover pull from — everyone reads the same version.
+- **What "paper" sounds like:** *"It's all in spreadsheets"* — a dozen disconnected files on
+  different laptops, permits in email, progress in a contractor tracker, no single place anyone
+  sees execution as a whole.
+
+**Why it's a readiness risk, not just a preference:** fragmentation makes the daily rhythm (7)
+slow and manual (re-keying instead of deciding), breaks the verified-progress→earn/burn→schedule
+wiring (3→4→6), and doesn't survive handover (8). Two managers reading two files tell two stories.
+
+**Rate it and feed the findings.** Reflect the degree of fragmentation in the affected systems'
+RAG and in the verdict (`rating-and-verdict.md`), and — if data is badly scattered — raise it as a
+standalone finding. **Diagnose, don't build:** flag that there's no shared home; do **not**
+architect the centralized system for them in the room. The framing is **disconnection**, never
+"you should buy a particular product."
