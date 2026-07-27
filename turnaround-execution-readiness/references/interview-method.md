@@ -69,9 +69,9 @@ You know the destination for each item. Navigate your own route to it:
 - **Vague or hollow answer** → drill with follow-ups until you've either found the substance
   or confirmed it isn't there.
 - **Can't answer at all** → **that itself is the finding.** Log it, gauge how bad it is, and
-  decide whether to keep pushing or move on. Some gaps are *expected* (e.g., few clients can
-  quantify their permit-issuing capacity per shift) — recognize the expected gap, note it, and
-  don't belabor a point already made.
+  decide whether to keep pushing or move on. Some gaps are *expected* (e.g., few clients have an
+  in-shift read on whether the hours actually being worked are keeping pace with what the
+  schedule requires) — recognize the expected gap, note it, and don't belabor a point already made.
 
 Dial depth up or down by the quality of the answers. Ask more questions or fewer; omit
 follow-ups that the previous answer already resolved.
@@ -100,10 +100,11 @@ built-in "Other" for free text).
 - **Batch related questions** when it helps (the prompt can carry a few at once) — a tight
   cluster of 2–3 related status questions is fine; a wall of them bewilders.
 
-Example (System 1, capacity): *"How does operations know how many man-hours it can safely permit
-and oversee per shift?"* → options: "Quantified & documented per operator/area" · "Rule of thumb,
-not written down" · "Not quantified — we issue what we can as requests come" · (Other). One click
-lands it on the spectrum.
+Example (System 1, labor keeping pace): *"During execution, how do you know — per area, per
+shift — whether the hours actually going to work are enough to hit the schedule?"* → options:
+"Live required-vs-actual view by area, owned and reconciled" · "We eyeball headcount, no
+schedule comparison" · "We don't see it until we're already behind" · (Other). One click lands
+it on the spectrum.
 
 ## Posture: diagnose by default, facilitate lightly, never build
 

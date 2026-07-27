@@ -27,31 +27,38 @@ see as a whole? Fragmentation is a readiness risk that pulls ratings down. Full 
 > **The #1 killer.** Most turnarounds fail because operations/permitting is not aligned with
 > the schedule.
 
-- **Crux:** can they see permit **demand vs. capacity vs. actual**, by area, per shift — so a
-  permitting bottleneck is visible **before** it strangles the schedule?
-- **Objective:** confirm a process and real visibility connecting permit issuance to the
-  schedule's labor demand.
-- **Real looks like:** a three-way view — **required** man-hours/day (rolled up from a
-  **resource-loaded schedule**, broken down by permitting area/unit), **permit capacity** (how
-  many man-hours ops can actually safely permit and supervise in that area per shift), and
-  **actual** man-hours worked. Refreshed as a **per-shift / next-day look-ahead**. A named
-  owner reconciles permit throughput against schedule demand.
+- **Crux:** can they see, by area, per shift, whether the man-hours **actually being permitted
+  and worked** are keeping pace with the man-hours the **schedule requires** — so a labor
+  shortfall is visible **before** it puts the schedule behind?
+- **Objective:** confirm a process and real visibility connecting labor actually going to work
+  (via permits) to the schedule's labor demand.
+- **Real looks like:** a live comparison of **required** man-hours/day (rolled up from a
+  **resource-loaded schedule**, broken down by permitting area/unit) against **actual**
+  man-hours being permitted and worked in that area — so anyone can see, per shift, whether
+  enough labor is going to work to hit the plan. Refreshed as a **per-shift / next-day
+  look-ahead**. A named owner reconciles the two and drives the gap closed. As a **minor
+  check** on the side: a sanity read that they're not asking a single permit desk to issue and
+  supervise more than it physically can — but that ceiling is rarely the binding constraint;
+  the shortfall is.
 - **Paper sounds like:** permitting and scheduling live in separate worlds; no one connects
   them (ops issues permits, planning owns the schedule, nobody owns the seam). "We have a
-  permit process" with no line of sight to schedule demand.
-- **Probe bank:** is there any view connecting permit demand to the schedule? · who owns the
-  reconciliation? · is the schedule resource-loaded at the granularity to compute required
-  man-hours **per permitting area**? · what is their realistic permit-issuing capacity per unit
-  per shift, and how do they know? · when tomorrow's demand exceeds a unit's capacity, who
-  re-sequences / staggers starts / adds a permit authority / uses standing permits — and who
-  decides? · show me how you did this last turnaround.
-- **Killer tell:** *"Once you're executing, walk me through how you'll see tomorrow's permit
-  demand vs. capacity in each unit — where does each number come from? And show me if you
-  produced this last turnaround."* **The capacity side is the deep probe** — most clients have
-  never quantified permit-issuing capacity per unit per shift and schedule labor blind to it.
-  Their inability to answer *is* the finding; don't belabor it once made.
+  permit process" with no line of sight to schedule demand — so no one can tell whether the
+  hours going to work are enough.
+- **Probe bank:** is there any view connecting hours actually worked back to what the schedule
+  requires? · who owns the reconciliation? · is the schedule resource-loaded at the granularity
+  to compute required man-hours **per permitting area**? · when a unit's actual hours fall short
+  of what the schedule needs, who sees it, and how do they close it — add crew, add a shift,
+  extend hours, re-sequence? · (minor) is any permit desk ever the physical bottleneck, and how
+  would they know? · show me how you did this last turnaround.
+- **Killer tell:** *"Once you're executing, walk me through how you'll see — per unit, per shift
+  — whether the hours actually going to work are keeping up with what the schedule needs. Where
+  does each number come from? And when a unit is short, who catches it and what do they do? Show
+  me if you produced this last turnaround."* **The shortfall-detection-and-response is the deep
+  probe** — most clients cannot see, in-shift, that they're under-crewing against the plan until
+  they're already behind. Their inability to answer *is* the finding; don't belabor it once made.
 - **Expected gap:** no one owns the permit↔schedule seam; the schedule isn't resource-loaded
-  finely enough to compute required man-hours per permitting area; capacity was never quantified.
+  finely enough to compute required man-hours per permitting area; no in-shift read on whether
+  actual hours are keeping pace with required.
 - **Dependencies:** requires a **resource-loaded schedule** (Track 2, domain 2). Feeds the
   daily rhythm (System 7). Consumes the updated schedule from System 6.
 
@@ -234,9 +241,10 @@ see as a whole? Fragmentation is a readiness risk that pulls ratings down. Full 
   path? · who holds decision rights for re-sequencing / overtime / added scope? · **does each
   of Systems 1–6 feed a specific meeting** (test each one's named home)? · show me last TA's
   meeting cadence / war-room structure.
-- **Killer tell:** *"When your night-shift permit look-ahead shows tomorrow's demand exceeds
-  capacity in Unit X — walk me through exactly which meeting that hits, who's in the room, who
-  decides the fix, and by when. Show me the meeting structure you ran last turnaround."* Crisp
+- **Killer tell:** *"When your night-shift look-ahead shows Unit X is short on hours against
+  what the schedule needs tomorrow — walk me through exactly which meeting that hits, who's in
+  the room, who decides the fix, and by when. Show me the meeting structure you ran last
+  turnaround."* Crisp
   meeting name + attendees + decision-owner + timing = real. "It'd come up at the morning
   meeting somewhere" = the gap.
 - **Special check:** explicitly verify **each of Systems 1–6 has a named home** in this rhythm.
