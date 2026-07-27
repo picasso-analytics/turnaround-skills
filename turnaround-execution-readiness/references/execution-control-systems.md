@@ -66,34 +66,49 @@ see as a whole? Fragmentation is a readiness risk that pulls ratings down. Full 
 
 ## System 2 — Materials integrity during execution
 
-- **Crux:** is there a **live** control that protects staged/kitted materials from loss and
-  cannibalization *during* execution — not just a T-0 "we received everything"?
+- **Crux:** is there a **live** control — materials tracked through **received → requested →
+  issued** states on a **single shared dashboard** — that protects staged/kitted materials from
+  loss and cannibalization *during* execution, not just a T-0 "we received everything"?
 - **Objective:** confirm the job that owns a material actually has it when the craft arrives,
   even after mid-TA robbing between jobs.
-- **Real looks like:** materials **kitted/bagged-and-tagged to the work package**, in a
-  controlled lay-down with **logged issue** (not open self-serve); a **re-verification** of
-  kits for jobs coming up in the next few days; and — key — when material *is* robbed from job A
-  to cover job B, it's a **recorded transaction that re-flags and re-orders for job A** before
-  A's start date. A named **materials coordinator on every shift**. Critical spares/long-leads
-  specially secured.
+- **Real looks like:** materials move through **three tracked states**, all visible on **one
+  consolidated materials dashboard** the whole team can see:
+  - **Received** — physically arrived and checked in against the PO/BOM, separating what's
+    *on-order* from what's *on the ground* (open long-leads stay visible, not assumed).
+  - **Requested** — the owning job **pulls its kit from the lay-down against its work package**,
+    driven off the schedule look-ahead — so demand is visible before the craft shows up.
+  - **Issued** — handed out as a **logged transaction** to a specific work package (not open
+    self-serve).
+
+  On top of the states: materials **kitted/bagged-and-tagged to the work package** in a
+  controlled lay-down; a **re-verification** of kits for jobs coming up in the next few days;
+  and — key — when material *is* robbed from job A to cover job B, it's a **recorded transaction
+  that re-flags and re-orders for job A** before A's start date, and **the dashboard shows it**.
+  A named **materials coordinator on every shift**. Critical spares/long-leads specially secured.
 - **Paper sounds like:** *"We received everything, it's all in the warehouse."* No per-job
-  kitting, open access, no issue log, no reconciliation — the first anyone hears of a raided kit
-  is the craft standing at an empty staging area on nightshift.
+  kitting, open access, no issue log, no reconciliation, no dashboard — the first anyone hears
+  of a raided kit is the craft standing at an empty staging area on nightshift.
 - **Framing:** cannibalization is **not forbidden** — robbing Peter to pay Paul is sometimes
   right in the moment. The control is **visibility + auto-replacement**, so Peter's job doesn't
   get silently gutted.
-- **Probe bank:** staged by work-package or general store? · controlled/logged issue? · kit
-  re-verification for upcoming jobs? · is a rob **recorded** and the robbed job **re-flagged /
-  re-ordered**? · who owns materials control per shift? · are critical spares/long-leads
-  specially secured? · show me last TA's materials tracker.
+- **Probe bank:** are materials tracked through distinct **received / requested / issued**
+  states, or just "in the warehouse"? · is there **one consolidated dashboard** showing all
+  three, and who can see it? · staged by work-package or general store? · controlled/logged
+  issue? · kit re-verification for upcoming jobs? · is a rob **recorded** and the robbed job
+  **re-flagged / re-ordered** on the dashboard? · who owns materials control per shift? · are
+  critical spares/long-leads specially secured? · show me last TA's materials tracker.
 - **Killer tell:** *"Right now, if I asked your materials coordinator which of next week's kits
-  have already been raided — could they answer me, or would they have to go count?"* If the
-  honest answer is "go count," there's no control — there's a warehouse and hope. Backup
-  (historical): *"Last turnaround — how many jobs hit a workfront shortage on something the
-  system said was on-site, and how did you find out?"*
+  have already been raided — could they answer me off a dashboard, or would they have to go
+  count?"* If the honest answer is "go count," there's no control — there's a warehouse and
+  hope. Backup (historical): *"Last turnaround — how many jobs hit a workfront shortage on
+  something the system said was on-site, and how did you find out?"*
+- **Rating note:** the **consolidated dashboard is the bar for green** — the three states have
+  to be *visible in one place*, not merely recorded somewhere. A real state-tracking system with
+  **no consolidated dashboard** (states buried in separate logs or spreadsheets nobody sees
+  together) caps at **amber** — same logic as the data-home principle.
 - **Expected gap:** materials treated as a T-0 procurement milestone ("we have it all") with
-  **no during-execution protection or reconciliation control**, plus false confidence from the
-  T-0 "we're complete."
+  **no during-execution protection or reconciliation control** — no state tracking, no
+  consolidated dashboard — plus false confidence from the T-0 "we're complete."
 - **Dependencies:** relates to Track 2, domain 3 (procurement/receipt) and to System 9
   (outside-shop items are materials in motion).
 
